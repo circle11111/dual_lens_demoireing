@@ -1,0 +1,5 @@
+source1,source2,target
+focused_image_path_1,defocused_image_path_1,GT_path_1
+focused_image_path_2,defocused_image_path_2,GT_path_2
+focused_image_path_3,defocused_image_path_3,GT_path_3
+...
