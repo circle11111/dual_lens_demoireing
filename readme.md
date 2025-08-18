@@ -67,15 +67,16 @@ You can see `train.csv` and `val.csv` in the `datasets/your_dataset` folder. The
 If our work is useful for your research, please consider citing:
 
 ```
-@misc{dong2025videodemoireingusingfocuseddefocused,
-      title={Video Demoireing using Focused-Defocused Dual-Camera System}, 
-      author={Xuan Dong and Xiangyuan Sun and Xia Wang and Jian Song and Ya Li and Weixin Li},
-      year={2025},
-      eprint={2508.03449},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.03449}, 
-}
+@ARTICLE{11119444,
+  author={Dong, Xuan and Sun, Xiangyuan and Wang, Xia and Song, Jian and Li, Ya and Li, Weixin},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Video Demoireing using Focused-Defocused Dual-Camera System}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Videos;Cameras;Training;Optical filters;Pipelines;Low-pass filters;Image color analysis;Software algorithms;Artificial intelligence;Toy manufacturing industry;Video demoireing;focused-defocused dual camera},
+  doi={10.1109/TPAMI.2025.3596700}}
 ```
 ## Acknowledgements
 Special thanks to the following repositories for supporting our research:
