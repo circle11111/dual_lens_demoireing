@@ -4,7 +4,7 @@
 
 *Equal contribution.
 
-This repo is the official implementation of [Video Demoireing using Focused-Defocused Dual-Camera System](https://arxiv.org/abs/2508.03449).
+[Paper](https://arxiv.org/abs/2508.03449) [Project](https://circle11111.github.io/TPAMI_Demoireing_Webpage/) [Dataset](https://circle11111.github.io/Dual-demoireing_datasets/)
 
 ## Environment Setup
 
@@ -36,7 +36,7 @@ You can change `--video_name` and `--num` to check other examples.
 ## Train your own demoireing network
 
 ### Step-1: data preparation
-You can download our [DualSynthetic]() or [DualSyntheticVideo]() dataset. The files should be organized like
+You can download our [DualSynthetic](https://pan.baidu.com/s/1Sv1eva5IjY6NrjN-Ix04ww?pwd=62tn) or [DualSyntheticVideo](https://pan.baidu.com/s/1Xc5YsikoqRBbWXjmckFmPg?pwd=6prt) dataset. The files should be organized like
 ```
 --|--train--|--main
   |         |--guide
@@ -60,14 +60,14 @@ You can see `train.csv` and `val.csv` in the `datasets/your_dataset` folder. The
 ## Datasets
 
 - DualReal [[Baidu Disk]](https://pan.baidu.com/s/1jV8aiL559LtwRMb_nIQu7A?pwd=ekbr)
-- DualSynthetic [[Baidu Disk]]()
-- DualSyntheticVideo [[Baidu Disk]]() 
+- DualSynthetic [[Baidu Disk]](https://pan.baidu.com/s/1Sv1eva5IjY6NrjN-Ix04ww?pwd=62tn)
+- DualSyntheticVideo [[Baidu Disk]](https://pan.baidu.com/s/1Xc5YsikoqRBbWXjmckFmPg?pwd=6prt) 
 ## Citations
 
 If our work is useful for your research, please consider citing:
 
 ```
-@ARTICLE{11119444,
+@ARTICLE{DuDemoire2025,
   author={Dong, Xuan and Sun, Xiangyuan and Wang, Xia and Song, Jian and Li, Ya and Li, Weixin},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Video Demoireing using Focused-Defocused Dual-Camera System}, 
@@ -75,7 +75,7 @@ If our work is useful for your research, please consider citing:
   volume={},
   number={},
   pages={1-15},
-  keywords={Videos;Cameras;Training;Optical filters;Pipelines;Low-pass filters;Image color analysis;Software algorithms;Artificial intelligence;Toy manufacturing industry;Video demoireing;focused-defocused dual camera},
+  keywords={Video demoireing; Focused-defocused dual camera},
   doi={10.1109/TPAMI.2025.3596700}}
 ```
 ## Acknowledgements
